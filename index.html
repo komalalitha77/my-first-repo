@@ -1,16 +1,26 @@
-</DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Inserted text Example</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melo Evaru Koteshwardu</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-<h1>komalalitha<h1>
-  <h1>Navya<h1>
-    <h1>ramya</h1>
-<h2>using the ins tag</h2>
-<p> before the office timings are 10:00am to 6:00pm <ins> now they change the office timings from 9:00am to 6:30pm</ins></p>
+  <div class="container">
+    <h1>Melo Evaru Koteshwardu</h1>
+    <div id="game">
+      <div id="question">Loading question...</div>
+      <div class="options">
+        <button class="option-btn" onclick="selectOption(0)">Option A</button>
+        <button class="option-btn" onclick="selectOption(1)">Option B</button>
+        <button class="option-btn" onclick="selectOption(2)">Option C</button>
+        <button class="option-btn" onclick="selectOption(3)">Option D</button>
+      </div>
+      <div id="result"></div>
+      <button id="next-btn" onclick="nextQuestion()">Next</button>
+    </div>
+  </div>
 </body>
 </html>
-
-
-
